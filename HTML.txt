@@ -1,0 +1,7 @@
+1. HTML basic tags
+2. Semantic HTML
+3. From elements
+
+4. Head tags / imports
+
+5. Accessibility

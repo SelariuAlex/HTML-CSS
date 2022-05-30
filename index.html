@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Title</title>
+    <!-- More tags
+    <meta name="author" content="Alexandru Selariu">
+    <meta name="description" content="The description is also used on search engine result pages (google)">
+    <base href="https://www.default_address_on_a_page.com/" target="_blank">
+    -->
+    <!-- Add custom icon to the document 
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    -->
+    <!-- Other 
+    <link rel="stylesheet" href="my-css-file.css">
+    <script src="my-js-file.js" defer></script>
+    -->
+  </head>
+
+  <body>
+
+    <div class="semantic HTML">
+      <header>Represents a container for introductory content or a set of navigational links</header>
+      <nav>Defines a set of navigation links</nav>
+      <main>Specifies the main content of a document</main>
+      <section>Defines a section in a document</section>
+      <article>An article should make sense on its own</article>
+      <aside>Content should be indirectly related to the surrounding content</aside>
+      <footer>Defines a footer for a document or section</footer>
+    </div>
+
+    <div class="form">
+      <form method="post" enctype="application/x-www-form-urlencoded" action="https://pizza.example.com/order.cgi">
+        <p><label>Customer name: <input type="text" name="customerName" required autocomplete="shipping name"></label></p>
+        <p><label>Telephone: <input type=tel name="customerTel" autocomplete="shipping tel"></label></p>
+        <p><label>Email address: <input type=email name="customerEmail" autocomplete="shipping email"></label></p>
+        <p><label>Buzzer code: <input name="customerBuzz" inputmode="numeric"></label></p>
+        <p>
+          <label for="passId">Password: </label>
+          <input type="password" name="pass" id="passId">
+        </p>
+
+        <fieldset>
+          <legend> Pizza Size </legend>
+          <p><label> <input type=radio name=size required value="small"> Small </label></p>
+          <p><label> <input type=radio name=size required value="medium"> Medium </label></p>
+          <p><label> <input type=radio name=size required value="large"> Large </label></p>
+        </fieldset>
+
+        <fieldset>
+          <legend> Pizza Toppings </legend>
+          <p><label> <input type=checkbox name="topping" value="bacon"> Bacon </label></p>
+          <p><label> <input type=checkbox name="topping" value="cheese"> Extra Cheese </label></p>
+          <p><label> <input type=checkbox name="topping" value="onion"> Onion </label></p>
+          <p><label> <input type=checkbox name="topping" value="mushroom"> Mushroom </label></p>
+        </fieldset>
+
+        <p><label>Preferred delivery time: <input type=time min="11:00" max="21:00" step="900" name="delivery"
+              required></label></p>
+        <p><label>Delivery instructions: <textarea name="comments" maxlength=1000></textarea></label></p>
+
+        <p>
+          <label for="deliver">Deliver to</label>
+          <select name="deliver" id="deliver">
+            <option value="home">Home</option>
+            <option value="office">Office</option>
+          </select>
+        </p>
+        
+        <p><button>Submit order</button></p>
+      </form>
+    </div>
+
+    <div class="accessibility">
+      <h1 tabindex="0">tab 1</h1>
+      <h2 tabindex="-1">tab 2</h2>
+    </div>
+
+  </body>
+
+</html>

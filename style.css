@@ -1,0 +1,118 @@
+* {
+  background: rgb(220, 238, 244);
+  font-size: 50px;
+}
+
+a {
+  color: red;
+}
+
+.myClass {
+  color: green;
+}
+
+/* section #myId {
+  color: orange;
+}
+
+#myId {
+  color: blue;
+} */
+
+/* pseudo-classes
+
+a:hover {
+  background: yellow;
+}
+
+a:focus {
+  background: orange;
+}
+
+a:active {
+  background: brown;
+}
+
+a:disabled {
+  background: grey;
+}  */
+
+
+/* pseudo-elements
+
+a::before {
+  content: 'Before';
+  background: teal;
+}
+
+a::after {
+  content: 'After';
+  background: violet;
+}
+*/
+
+
+.box-model p {
+  padding: 10px;
+  border: 5px solid black;
+  margin: 15px;
+  height: 100px;
+}
+
+.myHeight {
+  box-sizing: border-box;
+}
+
+/* position 
+
+.parent {
+  background: lightskyblue;
+  padding: 20px;
+  position: static;
+  height: 2000px;
+}
+
+.one {
+  background: greenyellow;
+  position: static;
+  position: relative;
+  position: absolute;
+  position: fixed;
+  position: sticky;
+  top: 20px;
+}
+
+.two {
+  background: yellow;
+}
+
+.three {
+  background: pink;
+}
+*/
+
+.div1 {
+  background: lightsalmon;
+}
+
+.span1 {
+  background: red;
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+}
+
+.span2 {
+  background: violet;
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+}
+
+.span3 {
+  background: teal;
+}
+
+.div2 {
+  background: gold;
+}
