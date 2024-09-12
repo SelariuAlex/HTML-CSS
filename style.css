@@ -37,7 +37,6 @@ a:disabled {
   background: grey;
 }  */
 
-
 /* pseudo-elements
 
 a::before {
@@ -49,14 +48,24 @@ a::after {
   content: 'After';
   background: violet;
 }
-*/
+
+.selectors::first-letter {
+  color: blue;
+}
+
+.selectors::first-line {
+  color: black;
+} */
+
 
 
 .box-model p {
+  content: normal;
   padding: 10px;
   border: 5px solid black;
   margin: 15px;
   height: 100px;
+  width: 25%;
 }
 
 .myHeight {
@@ -81,15 +90,13 @@ a::after {
   position: sticky;
   top: 20px;
 }
-
 .two {
   background: yellow;
 }
-
 .three {
   background: pink;
-}
-*/
+} */
+
 
 .div1 {
   background: lightsalmon;
@@ -113,6 +120,3 @@ a::after {
   background: teal;
 }
 
-.div2 {
-  background: gold;
-}
