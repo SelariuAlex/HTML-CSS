@@ -1,0 +1,13 @@
+1) HTTP Status Codes
+100 : Informational, Switching protocol from http to websockets
+200 : Success
+300 : Redirection
+400 : Client Error - Bad Request (did not send good information)
+500 : Server Error
+
+2) HTTP Request methods
+GET : Retrieve resource from server
+POST : Create new resource
+PUT : Update / Replace existing resource
+DELETE : Delete existing resource
+PATCH : Edit just some items in a object for example
